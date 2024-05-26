@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e4e4; /* Dark gray background */
+    color: #333; /* Light gray text color */
+}
+
+h2 {
+    text-align: center;
+    color: #333; /* Light gray text color */
+    margin-bottom: 20px;
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #90caf9; /* Light blue link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    color: #64b5f6; /* Slightly darker blue on hover */
+}
+
+.selected-title {
+    text-align: center;
+    color: #333; /* Light gray text color */
+    margin-bottom: 20px;
+}
+
+.selected-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #424242; /* Dark gray table background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.selected-table th, .selected-table td {
+    border: 1px solid #555; /* Medium gray border */
+    padding: 12px;
+    text-align: center;
+    color: #f5f5f5; /* Light gray text color */
+}
+
+.selected-table th {
+    background-color: #616161; /* Medium dark gray header background */
+}
+
+.selected-table label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f5f5f5; /* Light gray text color */
+}
+
+.selected-table input[type="text"],
+.selected-table input[type="checkbox"],
+.selected-table input[type="submit"] {
+    margin-bottom: 10px;
+    display: block;
+    margin: 5px auto;
+    padding: 12px;
+    border: 1px solid #555; /* Medium gray border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    background-color: #757575; /* Dark gray input background */
+    color: #f5f5f5; /* Light gray text color */
+}
+
+.selected-table input[type="text"]:focus,
+.selected-table input[type="checkbox"]:focus,
+.selected-table input[type="submit"]:focus {
+    border-color: #90caf9; /* Light blue border color on focus */
+}
+
+.no-data {
+    text-align: center;
+    color: #ef5350; /* Red color for no data message */
+    margin-top: 20px;
+}
